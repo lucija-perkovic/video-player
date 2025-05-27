@@ -2,12 +2,13 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lucija-perkovic.github.io",
+  "homepage": "https://<your-username>.github.io/<your-repo-name>",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export -o out",
-    "preview": "npx serve out -l 5000 -s",
-    "deploy": "npm run build && gh-pages -d out"
+    "build": "next build",
+    "export": "next export",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "next": "15.3.2",

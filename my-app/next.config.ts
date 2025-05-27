@@ -1,10 +1,12 @@
-import type { NextConfig } from 'next';
+import { NextConfig } from "next";
+
+const repoName = 'video-player'; // 👈 Replace this
 
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '', // No basePath needed for root-level GitHub Pages site
-  assetPrefix: '/', // Ensure static assets load correctly
-  trailingSlash: true, // Optional, helps with static export consistency
+  basePath: `/${repoName}`,
+  assetPrefix: `/${repoName}/`,
+  trailingSlash: true,
   compiler: {
     styledComponents: true,
   },
