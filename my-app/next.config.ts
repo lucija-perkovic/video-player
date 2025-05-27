@@ -1,11 +1,9 @@
 import { NextConfig } from "next";
 
-const repoName = 'video-player'; // 👈 Replace this
-
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: `/${repoName}`,
-  assetPrefix: `/${repoName}/`,
+  basePath: '/video-player',
+  assetPrefix: '/video-player/',
   trailingSlash: true,
   compiler: {
     styledComponents: true,

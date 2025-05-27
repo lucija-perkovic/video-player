@@ -2,14 +2,12 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<your-username>.github.io/<your-repo-name>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
-    "predeploy": "npm run build && npm run export",
     "deploy": "gh-pages -d out"
   },
+  "homepage": "https://lucija-perkovic.github.io/video-player",
   "dependencies": {
     "next": "15.3.2",
     "react": "^19.0.0",
