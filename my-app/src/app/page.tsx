@@ -22,14 +22,14 @@ export default function Home() {
   return (
     <ResponsiveLayout>
       <VideoPlayer
-        src="/videos/video_1/clip.mp4"
+        src="video-player/videos/video_1/clip.mp4"
         subtitleUrl="/videos/video_1/captions.srt"
         playerId="player-1"
         isActive={activePlayerId === "player-1"}
         onActivate={() => setActivePlayerId("player-1")}
       />
       <VideoPlayer
-        src="/videos/video_2/clip.mp4"
+        src="video-player/videos/video_2/clip.mp4"
         subtitleUrl="/videos/video_2/captions.srt"
         playerId="player-2"
         isActive={activePlayerId === "player-2"}
