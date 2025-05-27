@@ -4,6 +4,7 @@
 
 Check out the live version here:  
 👉 [https://lucija-perkovic.github.io/video-player/](https://lucija-perkovic.github.io/video-player/)
+> **Note:** The deployed code is in the `gh-pages` branch.
 
 ---
 
