@@ -48,7 +48,7 @@ npm run dev
 4. **Open in your browser:**
 
 ```
-http://localhost:3000
+http://localhost:3000/video-player
 ```
 
 ---
