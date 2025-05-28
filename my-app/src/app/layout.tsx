@@ -24,6 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <base href="/video-player/" />
+      </head>
       <body
         style={{
           backgroundColor: "var(--background)",
